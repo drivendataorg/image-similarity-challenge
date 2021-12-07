@@ -1,7 +1,6 @@
-[<img src='https://s3.amazonaws.com/drivendata-public-assets/logo-white-blue.png' width='600'>](https://www.drivendata.org/)
+[<img src='https://s3.amazonaws.com/drivendata-public-assets/logo-white-blue.png' height='70'>](https://www.drivendata.org/)
 <br><br>
-
-![Banner Image](https://s3.amazonaws.com/drivendata-public-assets/fb-isc-koala-banner.jpg)
+[<img src='https://s3.amazonaws.com/drivendata-public-assets/fb-isc-koala-banner.jpg' height='200'>]()
 
 # Image Similarity Challenge
 
@@ -12,7 +11,7 @@ Content tracing is a crucial component on all social media platforms today, used
 
 This competition allowed participants to test their skills in building a key part of that content tracing system, and in so doing contribute to making social media more trustworthy and safe for the people who use it.
 
-![deudeuche](https://drivendata-public-assets.s3.amazonaws.com/fb-isc-deudeuche.jpg "deu deuche")
+[<img src='https://drivendata-public-assets.s3.amazonaws.com/fb-isc-deudeuche.jpg' height='250'>]()
 
 
 <p class="small" align="center"><i>A reference image is manipulated to produce new images. <br>In this challenge competitors built models to detect whether a given query image is derived from a reference set.</i></p>
