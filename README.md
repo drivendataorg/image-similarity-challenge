@@ -20,8 +20,8 @@ This competition allowed participants to test their skills in building a key par
 
 There are two tracks to this challenge:
 
-* For the Matching Track, competitors created models that directly detect whether a query image is derived from one of the images in a large corpus of reference images.
-* For the Descriptor Track, competitors generated useful vector representations of images (up to 256 dimensions). These descriptors are compared with Euclidean distance to detect whether a query image is derived from one of the images in a large corpus of reference images.
+* For the [Matching Track](https://www.drivendata.org/competitions/84/competition-image-similarity-1-final/), competitors created models that directly detect whether a query image is derived from one of the images in a large corpus of reference images.
+* For the [Descriptor Track](https://www.drivendata.org/competitions/85/competition-image-similarity-2-final/), competitors generated useful vector representations of images (up to 256 dimensions). These descriptors are compared with Euclidean distance to detect whether a query image is derived from one of the images in a large corpus of reference images.
 
 
 ## Winning Submissions
