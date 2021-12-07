@@ -11,8 +11,8 @@ Content tracing is a crucial component on all social media platforms today, used
 
 This competition allowed participants to test their skills in building a key part of that content tracing system, and in so doing contribute to making social media more trustworthy and safe for the people who use it.
 
-<p class="small" align="center">
-[<img src='https://drivendata-public-assets.s3.amazonaws.com/fb-isc-deudeuche.jpg' height='250' align='center'>]()
+<p align="center">
+<img src='https://drivendata-public-assets.s3.amazonaws.com/fb-isc-deudeuche.jpg' height='250' align='center'>
 </p>
 
 <p class="small" align="center"><i>A reference image is manipulated to produce new images. <br>In this challenge competitors built models to detect whether a given query image is derived from a reference set.</i></p>
