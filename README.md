@@ -43,7 +43,3 @@ Place | Team or User | Code	| Paper | Score | Summary of Model
 1   | lyakaap | https://github.com/lyakaap/fbisc | Coming soon...  | 0.6354 | Uses an EfficientNet backbone trained with contrastive loss and cross-batch memory, and a training neighbor subtraction step in post-processing.   
 2   | S-square | https://github.com/socom20/facebook-image-similarity-challenge-2021 | Coming soon...  | 0.5905 | Ensembles EfficientNet and NFNet backbones using an ArcFace loss function, and applies a sample normalization step in post-processing.
 3   | VisionForce | https://github.com/WangWenhao0716/ISC-Track2-Submission | https://arxiv.org/abs/2111.08004 | 0.5788 | Uses a pretrained Barlow Twins model, yolov5 model to detect overlays, and a descriptor stretching step in post-processing.
-
-Additional solution details can be found in each winner's repository.
-
-
