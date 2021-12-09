@@ -19,7 +19,7 @@ This competition allowed participants to test their skills in building a key par
 
 ***
 
-There are two tracks to this challenge:
+There were two tracks to this challenge:
 
 * For the [Matching Track](https://www.drivendata.org/competitions/84/competition-image-similarity-1-final/), competitors created models that directly detect whether a query image is derived from one of the images in a large corpus of reference images.
 * For the [Descriptor Track](https://www.drivendata.org/competitions/85/competition-image-similarity-2-final/), competitors generated useful vector representations of images (up to 256 dimensions). These descriptors are compared with Euclidean distance to detect whether a query image is derived from one of the images in a large corpus of reference images.
@@ -41,6 +41,6 @@ Place | Team or User | Code	| Paper | Score | Summary of Model
 
 Place | Team or User | Code	| Paper | Score | Summary of Model
 --- | --- | ---  | --- | ---  | ---
-1   | lyakaap | [GitHub repository](https://github.com/lyakaap/fbisc) | Coming soon...  | 0.6354 | Uses an EfficientNet backbone trained with contrastive loss and cross-batch memory, and a training neighbor subtraction step in post-processing.   
-2   | S-square | [GitHub repository](https://github.com/socom20/facebook-image-similarity-challenge-2021) | Coming soon...  | 0.5905 | Ensembles EfficientNet and NFNet backbones using an ArcFace loss function, and applies a sample normalization step in post-processing.
+1   | lyakaap | [GitHub repository](https://github.com/lyakaap/fbisc) | [Contrastive Learning with Large Memory Bank and Negative Embedding Subtraction for Accurate Copy Detection](http://arxiv.org/abs/2112.04323)  | 0.6354 | Uses an EfficientNet backbone trained with contrastive loss and cross-batch memory, and a training neighbor subtraction step in post-processing.   
+2   | S-square | [GitHub repository](https://github.com/socom20/facebook-image-similarity-challenge-2021) | [Producing augmentation-invariant embeddings from real-life imagery](https://arxiv.org/abs/2112.03415)  | 0.5905 | Ensembles EfficientNet and NFNet backbones using an ArcFace loss function, and applies a sample normalization step in post-processing.
 3   | VisionForce | [GitHub repository](https://github.com/WangWenhao0716/ISC-Track2-Submission) | [Bag of Tricks and A Strong baseline for Image Copy Detection](https://arxiv.org/abs/2111.08004) | 0.5788 | Uses a pretrained Barlow Twins model, yolov5 model to detect overlays, and a descriptor stretching step in post-processing.
