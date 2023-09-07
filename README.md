@@ -5,6 +5,7 @@
 # Image Similarity Challenge
 
 ## Goal of the Competition
+
 Competitors built models to help detect whether a given query image is derived from any of the images in a large reference set.
 
 Content tracing is a crucial component on all social media platforms today, used for such tasks as flagging misinformation and manipulative advertising, preventing uploads of graphic violence, and enforcing copyright protections. But when dealing with the billions of new images generated every day on sites like Facebook, manual content moderation just doesn't scale. They depend on algorithms to help automatically flag or remove bad content.
@@ -29,6 +30,8 @@ There were two tracks to this challenge:
 
 See below for links to winning submissions' arXiv papers and code.
 
+As a condition for being awarded a prize, all winning solutions are open source under a permissive open source license approved by the Open Source Initiative. See each individual solution's repository for its license information.
+
 ### Matching Track
 
 Place | Team or User | Code	| Paper | Score | Summary of Model
@@ -44,3 +47,9 @@ Place | Team or User | Code	| Paper | Score | Summary of Model
 1   | lyakaap | [GitHub repository](https://github.com/lyakaap/fbisc) | [Contrastive Learning with Large Memory Bank and Negative Embedding Subtraction for Accurate Copy Detection](http://arxiv.org/abs/2112.04323)  | 0.6354 | Uses an EfficientNet backbone trained with contrastive loss and cross-batch memory, and a training neighbor subtraction step in post-processing.   
 2   | S-square | [GitHub repository](https://github.com/socom20/facebook-image-similarity-challenge-2021) | [Producing augmentation-invariant embeddings from real-life imagery](https://arxiv.org/abs/2112.03415)  | 0.5905 | Ensembles EfficientNet and NFNet backbones using an ArcFace loss function, and applies a sample normalization step in post-processing.
 3   | VisionForce | [GitHub repository](https://github.com/WangWenhao0716/ISC-Track2-Submission) | [Bag of Tricks and A Strong baseline for Image Copy Detection](https://arxiv.org/abs/2111.08004) | 0.5788 | Uses a pretrained Barlow Twins model, yolov5 model to detect overlays, and a descriptor stretching step in post-processing.
+
+## Additional resources
+
+**Winners announcement: [Meet the Winners of the Image Similarity Challenge](https://drivendata.co/blog/image-similarity-winners/)**
+
+**"Getting Started" blog post: [Facebook AI Image Similarity Challenge - Getting Started](https://www.drivendata.co/blog/image-similarity-challenge)**
